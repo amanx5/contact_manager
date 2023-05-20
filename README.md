@@ -1,7 +1,9 @@
 # contact_manager
 
 The “Contact Manager” is an console based standalone application developed using C++. It is based on various C++ features such as file handling, classes functions, streams, etc. It’s source code contains 2 classes that are:
+
 class utility: Contains all the helper functions and variables.
+
 •	static const int num_size=10;      //determines contact number length
 
 •	static const int name_size=20;	    //determines contact name length
@@ -11,6 +13,7 @@ class utility: Contains all the helper functions and variables.
 •	static bool isvalidname(string s) //checks whether the name is valid
 
 •	static bool isvalidnum(string s)  //checks whether the number is valid
+
 
 class application: Contains all the functions for the main menu.
 
